@@ -8,8 +8,8 @@
     <link rel="manifest" href="./manifest.webmanifest">
     <link rel="icon" href="./echo-icon.svg" type="image/svg+xml">
     <title>Echo Remote</title>
-    <script type="module" crossorigin src="./index-DJjpnEch.js"></script>
-    <link rel="stylesheet" crossorigin href="./index-CS29LlUc.css">
+    <script type="module" crossorigin src="./index-_O7reEwZ.js"></script>
+    <link rel="stylesheet" crossorigin href="./index-BJVOYUEk.css">
   </head>
   <body>
     <main class="shell">
@@ -38,8 +38,12 @@
       </section>
 
       <section id="chat-panel" class="chat hidden">
+        <div class="conversation-bar">
+          <label for="conversation-select">Conversation</label>
+          <select id="conversation-select" aria-label="Conversation"></select>
+          <button id="new-conversation" type="button">＋ New</button>
+        </div>
         <div id="messages" class="messages" aria-live="polite">
-          <article class="message echo"><b>Echo</b><p>Connected to your PC. What would you like help with?</p></article>
         </div>
         <form id="chat-form" class="composer">
           <textarea id="prompt" rows="2" maxlength="32000" placeholder="Message Echo…" required></textarea>
