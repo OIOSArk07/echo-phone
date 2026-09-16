@@ -8,8 +8,8 @@
     <link rel="manifest" href="./manifest.webmanifest">
     <link rel="icon" href="./echo-icon.svg" type="image/svg+xml">
     <title>Echo Remote</title>
-    <script type="module" crossorigin src="./index-Co2vpsqv.js"></script>
-    <link rel="stylesheet" crossorigin href="./index-BJVOYUEk.css">
+    <script type="module" crossorigin src="./index-CqC-nljP.js"></script>
+    <link rel="stylesheet" crossorigin href="./index-Cq4GiVwf.css">
   </head>
   <body>
     <main class="shell">
@@ -44,6 +44,11 @@
           <button id="new-conversation" type="button">＋ New</button>
         </div>
         <div id="messages" class="messages" aria-live="polite">
+        </div>
+        <div class="file-bar">
+          <input id="file-input" type="file" accept="application/pdf,text/plain,text/markdown,.pdf,.txt,.md" hidden>
+          <button id="attach-file" type="button">Attach PDF or text</button>
+          <span id="file-status" aria-live="polite"></span>
         </div>
         <form id="chat-form" class="composer">
           <textarea id="prompt" rows="2" maxlength="32000" placeholder="Message Echo…" required></textarea>
