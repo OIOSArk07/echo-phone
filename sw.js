@@ -1,4 +1,4 @@
-const CACHE = "echo-remote-v1";
+const CACHE = "echo-remote-v2";
 const ASSETS = ["./index.html", "./manifest.webmanifest", "./echo-icon.svg"];
 
 self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS))));
