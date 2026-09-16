@@ -1,0 +1,12 @@
+{
+  "name": "Echo Remote",
+  "short_name": "Echo",
+  "description": "Encrypted remote access to Echo running on your PC",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d1017",
+  "theme_color": "#151922",
+  "icons": [
+    { "src": "./echo-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
