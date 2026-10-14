@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Echo Owl</string>
+    <string name="widget_description">Echo owl companion for the home screen</string>
+    <string name="open_echo">Open Echo</string>
+    <string name="toggle_rest">Switch Echo between awake and sleeping</string>
+    <string name="rest">Rest</string>
+</resources>
