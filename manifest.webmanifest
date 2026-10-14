@@ -7,6 +7,7 @@
   "background_color": "#0d1017",
   "theme_color": "#151922",
   "icons": [
-    { "src": "./echo-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+    { "src": "./echo-rune-owl.png", "sizes": "1254x1254", "type": "image/png", "purpose": "any" },
+    { "src": "./echo-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
   ]
 }

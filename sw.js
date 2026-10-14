@@ -1,5 +1,5 @@
-const CACHE = "echo-remote-v2";
-const ASSETS = ["./index.html", "./manifest.webmanifest", "./echo-icon.svg"];
+const CACHE = "echo-remote-v5";
+const ASSETS = ["./index.html", "./manifest.webmanifest", "./echo-icon.svg", "./echo-rune-owl.png", "./echo-owl-perch.png", "./echo-owl-perch-sleeping.png"];
 
 self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS))));
 self.addEventListener("activate", (event) => event.waitUntil(

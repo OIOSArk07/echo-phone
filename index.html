@@ -8,13 +8,14 @@
     <link rel="manifest" href="./manifest.webmanifest">
     <link rel="icon" href="./echo-icon.svg" type="image/svg+xml">
     <title>Echo Remote</title>
-    <script type="module" crossorigin src="./index-CUB4Gv-I.js"></script>
-    <link rel="stylesheet" crossorigin href="./index-BKyYtNhH.css">
+    <script type="module" crossorigin src="./index-B_wR6HCj.js"></script>
+    <link rel="stylesheet" crossorigin href="./index-CJ-zfMOi.css">
   </head>
   <body>
     <main class="shell">
       <header>
-        <div>
+        <img class="echo-avatar" src="./echo-rune-owl.png" alt="Echo's rune owl avatar">
+        <div class="echo-title">
           <p class="eyebrow">PRIVATE PC ASSISTANT</p>
           <h1>Echo</h1>
         </div>
@@ -38,10 +39,16 @@
       </section>
 
       <section id="chat-panel" class="chat hidden">
+        <button id="echo-pet" class="phone-pet" type="button" data-state="idle" aria-label="Echo companion status">
+          <img id="echo-pet-image" src="./echo-owl-perch.png" alt="">
+          <span>Ready when you are.</span>
+        </button>
         <div class="conversation-bar">
           <label for="conversation-select">Conversation</label>
           <select id="conversation-select" aria-label="Conversation"></select>
           <button id="new-conversation" type="button">＋ New</button>
+          <button id="voice-toggle" class="voice-toggle" type="button" aria-pressed="false" title="Read Echo's replies aloud">🔇</button>
+          <button id="pet-toggle" class="pet-toggle" type="button" aria-pressed="true" title="Hide Echo's owl">🦉</button>
         </div>
         <div id="messages" class="messages" aria-live="polite">
         </div>
